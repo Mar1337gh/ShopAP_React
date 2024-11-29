@@ -46,7 +46,6 @@ app.post('/login', async (req, res) => {
 })
 app.post('/products', async (req, res) => {
 
-
     const products = await Product.find()
     res.json ({
         data: products
