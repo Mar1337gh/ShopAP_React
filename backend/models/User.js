@@ -1,5 +1,5 @@
 const {Schema, model } = require('mongoose')
-const { default: Login } = require('../../fend/src/components/Login')
+const { default: Login } = require('../fend/src/components/Login')
 const User = new Schema(
     {
         Login:  { type: String, 
