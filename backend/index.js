@@ -44,7 +44,7 @@ app.post('/login', async (req, res) => {
         token: token
     })
 })
-app.post('/products', async (req, res) => {
+app.get('/products', async (req, res) => {
 
     const products = await Product.find()
     res.json ({
