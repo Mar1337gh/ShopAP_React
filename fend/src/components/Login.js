@@ -9,7 +9,7 @@ function Login() {
         login: login,
         password: password, 
     }
-    debugger
+    //debugger
     console.log(data)
 
     const api = 'http://localhost:9001/registration'
