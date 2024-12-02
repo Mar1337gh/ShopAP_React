@@ -16,8 +16,8 @@ function Registration() {
   return (
     <>
     <h1>Регистрация</h1>
-    <input id ='Login' placeholder='Логин'></input>
-    <input id ='Password' placeholder='Пароль'></input>
+    <input id ='login' placeholder='Логин'></input>
+    <input id ='password' placeholder='Пароль'></input>
     <input id ='email' type = 'email' placeholder='Почта'></input> 
     <button onClick={Reg}>Сохранить</button>
     </>
