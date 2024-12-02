@@ -7,6 +7,9 @@ function Product({header, image, price}) {
       <img src = {image} />
      <h1>{header}</h1>
      <p> {`${price} руб`} </p>
+     <button>-</button>
+     <p><input type="text" name="login" placeholder="Количество товаров" /></p>
+     <button>+</button>
      <button>В корзину</button>
      </div>
   );
