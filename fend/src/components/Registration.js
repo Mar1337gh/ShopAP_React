@@ -11,6 +11,18 @@ function Registration() {
             email: email 
         }
         console.log(data)
+
+        const api = 'http://loacalhost:9001/registration'
+
+        fetch(api, {
+          method:'POST', //почему указан как строка?
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(data)
+        })
+        .then(result =>result.json())
+        .then((result) => {console.log(result) })
       }
       
   return (
