@@ -12,7 +12,7 @@ useEffect(() => {
   const api = 'http://localhost:9001/products'
 
   fetch (api) 
-  .then(result =>result.json())
+  .then(result => result.json())
   .then((result) => {
     console.log(result)
     setProducts(result.data)
