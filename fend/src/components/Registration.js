@@ -14,7 +14,7 @@ function Registration() {
 
         const api = 'http://loacalhost:9001/registration'
 
-        fetch(api, {
+        fetch (api, {
           method:'POST', //почему указан как строка?
           headers: {
             'Content-Type': 'application/json'
