@@ -1,3 +1,4 @@
+@media (min-width: 720px) and (max-width: 2560px) {
 .Main {
     width: 100%;
      min-height: calc(100vh - 50px - 50px);
@@ -6,4 +7,12 @@
      grid-template-columns: repeat(3, 1fr);
      padding: 30px;
      grid-gap: 30px; /* grid*/
+}
+}
+@media (max-width: 720px) {
+    .Main {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Меньшие колонки для узких экранов */
+        padding: 20px; /* Уменьшенные отступы */
+        grid-gap: 20px; /* Меньшее расстояние между элементами */
+    }
 }
