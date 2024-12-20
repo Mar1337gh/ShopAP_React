@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import './Main.css';
 import Product from '../components/Product';
-import image from '../images/product.jpg'
+//import image from '../images/product.jpg'
 
 function Main() {
 
@@ -9,7 +9,7 @@ const[products, setProducts] = useState([])
 
 useEffect(() => {
   
-  const api = 'http://localhost:9001/products'
+const api = 'http://localhost:9001/products'
 
   fetch (api) 
   .then(result => result.json())

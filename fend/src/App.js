@@ -25,7 +25,7 @@ const ModalBoxes = {
   return (
     <div className="App">
      <Header setPage = {setPage} setModalBox={setModalBox}/>
-     {pages[page]} 
+      {pages[page]} 
       {ModalBoxes[modalBox]}
      <Footer />
     </div>

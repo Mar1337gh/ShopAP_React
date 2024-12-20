@@ -32,8 +32,8 @@ function Login() {
   return (
     <>
     <h1>Логин</h1>
-    <input id = 'Login' type = 'text' placeholder='Логин' />
-    <input id = 'Password' type = 'password' placeholder='Пароль' />
+    <input id = 'login' type = 'text' placeholder='Логин' />
+    <input id = 'password' type = 'password' placeholder='Пароль' />
     <button onClick={Log}>Войти</button>
     </>
   );
