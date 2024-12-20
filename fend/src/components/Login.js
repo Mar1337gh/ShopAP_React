@@ -7,7 +7,7 @@ function Login() {
     const password = document.getElementById('password').value
     const data =  {
         login: login,
-        password: password, 
+        password: password 
     }
     //debugger
     console.log(data)
